@@ -26,7 +26,7 @@ class ofApp : public ofBaseApp{
 
 		ofSoundPlayer		dog;
 
-        // 128개 fft bin
+        // 512 fft bin
 		static constexpr size_t nBandsToGet = 512;
 		std::array<float, nBandsToGet> fftSmoothed{{0}};
     
